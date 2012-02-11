@@ -3,13 +3,26 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
-<html lang="es" />
+<html lang="es">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link media="screen" type="text/css" href="css/styles.css" rel="stylesheet" />
+	<link media="screen" type="text/css" href="styles.css" rel="stylesheet" />
 	<script src="scripts/prefixfree.js"></script>
 	<link media="screen" type="text/css" href="css/normalize.css" rel="stylesheet" />
-	 <link rel="stylesheet" href="css/nivo-slider.css">
+	<!--<link rel="stylesheet" href="css/nivo-slider.css">-->
+	
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+
+	     .gradient-1 {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
+
  	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -29,16 +42,16 @@
 		<div class="container">
 			<div id="slider" class="nivoSlider">
 				
-					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
-					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
-					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
-					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
-					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
-					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
-				</ul>
+				<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a>
+				<!--<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a>
+				<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a>
+				<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a>
+				<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a>
+				<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a>-->
+				
 			</div><!-end slider-->
 			
-			<nav class="gradient rounded">
+			<nav class="rounded gradient-1">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
@@ -52,7 +65,7 @@
 		</div><!-end container-->
     </header>
     
-    <section>
+    <!--<section>
 	    <div class="container">
 	    	<section class="boxes rounded">
 	    		<article class="floated" id="col-1">
@@ -70,13 +83,29 @@
 		    		<p>Aenean commodo, dui  porta consequat, <a href="">ipsum tortor amet.</a></p>
 				</article>
 	    	</section>
-	    </div><!-end container-->
-	</section>
+	    </div>
+	</section>-->
     
-    <div id="main" role="main" class="gradient-1">
+    <div id="main" role="main" class="gradient">
 		<div class="container">
+	    	<section class="boxes rounded">
+	    		<article class="floated" id="col-1">
+					<h3>Full Width Slider</h3>
+		    		<p>Aenean commodo, dui  porta consequat, <a href="">ipsum tortor amet.</a></p>
+				</article>
 			
-			<section id="primary" class="floated">
+				<article class="floated" id="col-2">
+					<h3>Work Everywhere</h3>
+		    		<p>Ut ut porta nulla. Quisque eros felis <a href="">ipsum tortor</a> amet.</a></p>
+				</article>
+				
+				<article class="floated" id="col-3">
+					<h3>Multiple Skin</h3>
+		    		<p>Aenean commodo, dui  porta consequat, <a href="">ipsum tortor amet.</a></p>
+				</article>
+	    	</section>
+			
+			<section class="primary floated">
 				<article id="main-post">
 					<hgroup>
 						<h1>Welcome to Mighty Premium theme</h1>
@@ -104,7 +133,7 @@
 				</article>
 			</section>
 			
-			<aside class="floated">
+			<aside class="secondary floated">
 				<article>
 					<hgroup>
 						<h2>Sidebar Content</h2>
@@ -171,7 +200,7 @@
     </div><!-end main-->
     
     <footer>
-		<section id="top">
+		<aside id="top">
 			<div class="container">
     			<article class="floated">
 					<h4>Applications</h4>
@@ -223,9 +252,9 @@
 					</ul>
 				</article>
 	    	</div><!-end container-->			
-		</section>
+		</aside><!-end top-->
 		
-		<section id="bottom">
+		<aside id="bottom">
 			<div class="container">
 				<nav>
 					<ul>
@@ -240,9 +269,11 @@
 				
 				<p>&copy; 2009 MIGHTY | DESIGNED AND DEVELOPPED BY <a href="">DDSTUDIOS</a></p>
 			</div><!-end container-->
-		</section><!-end bottom-->
+		</aside><!-end bottom-->
     </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!--<script type="text/javascript" src="scripts/nivoSlider.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>-->
 </body>
 </html>
