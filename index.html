@@ -1,0 +1,302 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/nivo-slider.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  
+  <!-- Activar toda la magia en IE. :) -->
+  
+  <!--[if lt IE 9]> <script src=”http://HTML5shim.googlecode.com/svn/trunk/HTML5.js”> </script> <![endif]-->
+  
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="scripts/selectivizr/selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+  
+</head>
+
+<body>
+
+    <header>
+		<div class="container">
+			<div id="slider" class="nivoSlider">
+				
+					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
+					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
+					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
+					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
+					<a href="#"><img src="images/slider-image-1.jpg" alt="#" /></a></li>
+					<a href="#"><img src="images/slider-image-2.jpg" alt="#" /></a></li>
+				</ul>
+			</div><!-end slider-->
+			
+			<nav class="gradient rounded">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Contact</a></li>
+					<li id="login"><a href="#"><img src="images/login.png" alt="#" />Login</a></li>
+				</ul>
+			</nav>
+		</div><!-end container-->
+    </header>
+    
+    <section>
+	    <div class="container">
+	    	<section class="boxes rounded">
+	    		<article class="floated" id="col-1">
+					<h3>Full Width Slider</h3>
+		    		<p>Aenean commodo, dui  porta consequat, <a href="">ipsum tortor amet.</a></p>
+				</article>
+			
+				<article class="floated" id="col-2">
+					<h3>Work Everywhere</h3>
+		    		<p>Ut ut porta nulla. Quisque eros felis <a href="">ipsum tortor</a> amet.</a></p>
+				</article>
+				
+				<article class="floated" id="col-3">
+					<h3>Multiple Skin</h3>
+		    		<p>Aenean commodo, dui  porta consequat, <a href="">ipsum tortor amet.</a></p>
+				</article>
+	    	</section>
+	    </div><!-end container-->
+	</section>
+    
+    <div id="main" role="main" class="gradient-1">
+		<div class="container">
+			
+			<section id="primary" class="floated">
+				<article id="main-post">
+					<hgroup>
+						<h1>Welcome to Mighty Premium theme</h1>
+						<h2>Here is everything you need to know about this theme</h2>
+					</hgroup>
+					
+					<div class="borders"><img src="images/featured-post-image.jpg" alt="#" /></div>
+					<p>In school and high school I never had the chance to experiment. Never had the chance to learn more… so one day I decided to start learning by myself. One of my brothers helped me a lot in this process as I needed a little push when I was having [...]
+					<a href="">Continue Reading</a>
+					</p>
+				</article>
+				
+				<article class="post">
+					<h2>Interview with Constantin Potorac</h2>
+					<p class="meta">By<a href="">DDStudios</a> in <a href="">Interview, Design</a> <a href=""></a> // <a href="">February 2nd 2010</a></p>
+					<div class="borders floated"><img src="images/post-image-1.jpg" alt="#" /></div>
+					<p class="content floated">In school and high school I never had the chance to experiment. Never had the chance to learn more… so one day I decided to start learning by myself. One of my brothers helped me a lot in this process as I needed a little push when I was having [...] <a href="">Continue Reading</a></p>
+				</article>
+				
+				<article class="post">
+					<h2>Best IPhone apps of all time</h2>
+					<p class="meta">By<a href="">DDStudios</a> in <a href="">Interview, Design</a> <a href=""></a> // <a href="">February 2nd 2010</a></p>
+					<div class="borders floated"><img src="images/post-image-1.jpg" alt="#" /></div>
+					<p class="content floated">In school and high school I never had the chance to experiment. Never had the chance to learn more… so one day I decided to start learning by myself. One of my brothers helped me a lot in this process as I needed a little push when I was having [...] <a href="">Continue Reading</a></p>
+				</article>
+			</section>
+			
+			<aside class="floated">
+				<article>
+					<hgroup>
+						<h2>Sidebar Content</h2>
+						<h3>Insert whatever you want here </h3>
+					</hgroup>
+				
+					<form>
+						<input type="text" name="search" id="search-field" />
+						<input type="submit" name="search-button" id="search-btn" />
+					</form>
+				</article>
+				
+				<article id="tabs">
+					<ul>
+						<li><a href="">Categories</a></li>
+						<li><a href="">Archives</a></li>
+						<li><a href="">Pages</a></li>
+					</ul>
+					
+					<ul id="categories">
+						<li><a href="">Actuality</a></li>
+						<li><a href="">Technology</a></li>
+						<li><a href="">Interview</a></li>
+						<li><a href="">Technology</a></li>
+						<li><a href="">Design</a></li>
+						<li><a href="">Mobile</a></li>
+						<li><a href="">Movies</a></li>
+					</ul>
+					
+					<div id="archives"></div>
+					
+					<div id="pages"></div>
+				</article>
+				
+				<article id="popular-posts">
+					<h2>Popular Posts</h2>
+					<article>
+						<div class="borders"><img src="images/thumb-1.jpg" alt="#" /></div>
+						<p><a href="">Interview with Constantin Potorac</a> <br /> <a href="">51 comments</a></p>
+					</article>
+					
+					<article>
+						<div class="borders"><img src="images/thumb-2.jpg" alt="#" /></div>
+						<p><a href="">Interview with Constantin Potorac</a> <br /> <a href="">51 comments</a></p>
+					</article>
+					
+					<article>
+						<div class="borders"><img src="images/thumb-1.jpg" alt="#" /></div>
+						<p><a href="">Interview with Constantin Potorac</a> <br /> <a href="">51 comments</a></p>
+					</article>
+					
+					<article>
+						<div class="borders"><img src="images/thumb-2.jpg" alt="#" /></div>
+						<p><a href="">Interview with Constantin Potorac</a> <br /> <a href="">51 comments</a></p>
+					</article>
+					
+					<div>
+						<a href="" id="prev">&lt;</a>
+						<a href="" id="next">&gt;</a>	
+					</div>
+				</article><!-end popular-posts-->
+			</aside>
+		</div><!-end container-->
+    </div><!-end main-->
+    
+    <footer>
+		<section id="top">
+			<div class="container">
+    			<article class="floated">
+					<h4>Applications</h4>
+					<ul>
+						<li><a href="">Application Name One</a></li>
+						<li><a href="">Application Name Two</a></li>
+						<li><a href="">Application Name Three</a></li>
+						<li><a href="">Application Name Four</a></li>
+						<li><a href="">Application Name Five</a></li>
+						<li><a href="">Application Name Six</a></li>
+					</ul>
+				</article>
+				
+				<article class="floated">
+					<h4>Support</h4>
+					<ul>
+						<li><a href="">Online Support</a></li>
+						<li><a href="">Telephone Sales</a></li>
+						<li><a href="">Workshops</a></li>
+						<li><a href="">Online Support</a></li>
+						<li><a href="">Telephone Sales</a></li>
+						<li><a href="">Workshops</a></li>
+					</ul>
+				</article>
+				
+				<article class="floated">
+					<h4>Markets</h4>
+					<ul>
+						<li><a href="">Education</a></li>
+						<li><a href="">Science</a></li>
+						<li><a href="">Business</a></li>
+						<li><a href="">Education</a></li>
+						<li><a href="">Science</a></li>
+						<li><a href="">Business</a></li>
+					</ul>
+				</article>
+				
+				<article class="floated" id="flickr">
+					<h4>From Flickr</h4>
+					<ul>
+						<li><a href=""><img src="images/thumb-3.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-4.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-5.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-3.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-4.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-5.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-4.jpg" alt="#" /></a></li>
+						<li><a href=""><img src="images/thumb-5.jpg" alt="#" /></a></li>
+					</ul>
+				</article>
+	    	</div><!-end container-->			
+		</section>
+		
+		<section id="bottom">
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				
+				<p>&copy; 2009 MIGHTY | DESIGNED AND DEVELOPPED BY <a href="">DDSTUDIOS</a></p>
+			</div><!-end container-->
+		</section><!-end bottom-->
+    </footer>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/nivoSlider.js"></script>
+  <script src="scripts/script.js"></script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
