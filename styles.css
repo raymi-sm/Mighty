@@ -208,9 +208,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 }
 
+@media screen and (max-width: 380px){ 
 
+	body{ color: purple; }
 
-
+}
 
 
 
